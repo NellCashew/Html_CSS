@@ -1,0 +1,40 @@
+### Estrutura
+<!DOCTYPE html> ***Diz ao navegador o que você está escrevendo
+<html> ***Abertura do elemento html (todo o conteúdo estará dentro deste elemento)
+<head>
+    <meta> ***Elemmentos que o navegador, buscadores necessitam
+    <title></title> ***Adiciona o título à aba do navegador
+</head>
+<body> ***Conteúdo da página
+</body>
+</html>
+-----------------------------------------------------------------------------------------
+### Semântica
+<section> *Representa uma seção genérica de conteúdo (ex: Lista de artigos)
+<header> *Cabeçalho da pág ou de parte da pág
+<article> *Representa um conteúdo relevante dentro da pág
+<aside> *Representa um conteúdo relacionado ao conteúdo principal da pág (biografia de autor, link relacionado) Geralmente representado por uma barra lateral
+<footer> *Rodapé da pág ou de parte da pág
+<h1>-<h6> *Títulos (1 ao 6). Só pode haver um <h1> por pág
+-----------------------------------------------------------------------------------------
+### Textos e links
+<h1>Título da página</h1>
+<h2>Título de seção</h2>
+<h3>Título de artigo</h3>
+<p>Conteúdo do artigo</p> *Representa um parágrafo e suporta texto, imagens, códigos, videos etc...
+
+<a>Link</a> *Uma âncora que interliga vários conteúdos
+Exemplo:
+<a href="linkedin.com/in/edsonrcjúnior">LinkedIn</a> *href auxilia a âncora apontar para um link, email (mailto:) ou telefone (tel:)
+<a href="mailto:msc.edsonrcjunior@gmail.com">E-mail</a>
+<a target="_blank">Link</a> *Indica que o link será aberto em uma nova guia
+-----------------------------------------------------------------------------------------
+### Imagens
+<img>
+<img src="img/avatar.jpg"> *Atributo obrigatóro, guarda o caminho da imagem
+<img alt="Foto de Edson R C Júnior"> *Mostra a descrição da foto quando ela não é carregada
+-----------------------------------------------------------------------------------------
+### Listas
+<ul> - representa uma lista em que a ordem dos itens não é importante
+<ol> - a ordem dos itens é importante (representados com números, letras, algarismos romanos)
+<li> - item da lista
